@@ -9,10 +9,11 @@ import com.ecommerce.Ecommerce.repositories.AdminSessionDAO;
 import com.ecommerce.Ecommerce.repositories.CustomerDAO;
 import com.ecommerce.Ecommerce.repositories.CustomerSessionDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class CustomerServiceImpl implements CustomerService{
 
     @Autowired

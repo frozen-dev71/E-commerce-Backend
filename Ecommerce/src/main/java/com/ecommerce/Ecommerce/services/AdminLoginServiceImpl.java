@@ -8,10 +8,11 @@ import com.ecommerce.Ecommerce.repositories.AdminDAO;
 import com.ecommerce.Ecommerce.repositories.AdminSessionDAO;
 import net.bytebuddy.utility.RandomString;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
-
+@Service
 public class AdminLoginServiceImpl implements AdminLoginService{
 
     @Autowired
