@@ -1,4 +1,4 @@
-# E-commerce-Backend
+# E-commerce Backend
 This REST API was created for an E-Commerce Project. This API handles all of the basic CRUD functions of an E-commerce Application platform, including validation at each stage.
 
 # About the Project
