@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/admin")
-public class AdminController {
+public class AdminControllers {
 
     @Autowired
     private CustomerService customerService;
