@@ -8,7 +8,7 @@ import com.ecommerce.Ecommerce.models.Customer;
 import com.ecommerce.Ecommerce.repositories.AdminSessionDAO;
 import com.ecommerce.Ecommerce.services.AdminService;
 import com.ecommerce.Ecommerce.services.CustomerService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/admin")
-public class AdminControllers {
+public class AdminController {
 
     @Autowired
     private CustomerService customerService;

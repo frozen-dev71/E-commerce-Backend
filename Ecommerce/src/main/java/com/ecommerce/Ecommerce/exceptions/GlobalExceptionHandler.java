@@ -1,5 +1,6 @@
 package com.ecommerce.Ecommerce.exceptions;
 
+import javax.persistence.RollbackException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import java.time.LocalDateTime;
 
