@@ -13,7 +13,6 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @ToString
-
 public class Admin {
     @Id
     @Min(value = 1, message = "Admin Id must be always greater than 0  !!")
